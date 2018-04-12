@@ -1,0 +1,48 @@
+extends layout
+
+block content
+  section.header
+    .container.grid-sm
+      center
+        img.img-responsive(src="/images/Emma-Logo.svg")
+        br
+        h5 The first children’s book co-written by AI.
+
+  section.product
+    .container.grid-md
+      .columns
+        .column.col-5.col-mx-auto
+          img.img-responsive(src="/images/Emma-Cover-Portrait.jpg")
+        .column.col-5.col-mx-auto
+          h3 Emma on Atlantic
+          h4 $29.95
+          p "Emma on Atlantic" is an engaging example of STEM in action, introducing children into the digital process of how AI can be used for creative projects.
+            ul
+              li Hardcover
+              li 38 Pages
+              li Full-color
+          p
+            img.buy(src="/images/Amazon.png")
+            br
+            small or&nbsp;
+              a(href="#") Download for Free
+
+  section.extra
+    .container.grid-md
+      center
+        .columns
+          .column.col-4.col-mx-auto
+            img.img-responsive(src="/images/Emma-Illustrations.jpg")
+            p Neural Style algorithm-rendered illustrations.
+          .column.col-4.col-mx-auto
+            img.img-responsive(src="/images/Emma-Interior.jpg")
+            p Includes Emma's adventure around Brooklyn.
+          .column.col-4.col-mx-auto
+            img.img-responsive(src="/images/Emma-Writing.jpg")
+            p Educational graphics explaining the creative process.
+
+  footer
+    .container.grid-md
+      center
+        p &copy; 2018&nbsp;
+          a(href="http://citizen.capital") Citizen Capital

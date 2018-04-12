@@ -1,0 +1,76 @@
+body {
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+p, li {
+  color: #000;
+}
+
+h1 {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  color: #fff;
+  font-size: 4em;
+}
+
+h3 {
+  font-family: "Roboto Slab";
+  font-weight: 800;
+  color: #000;
+  font-size: 3em;
+}
+
+h4 {
+  color: #000;
+}
+
+h5 {
+  color: #fff;
+}
+
+a {
+  color: #36709d;
+}
+
+img.buy {
+  width: 200px;
+}
+
+section.header {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background: #36709d;
+}
+
+section.product {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+section.extra {
+  padding-bottom: 4em;
+}
+
+.extra .grid-md {
+  padding-top: 4em;
+  border-top: 1px solid #eee;
+}
+
+.extra p {
+  padding: 1em;
+  color: #999;
+}
+
+.product ul {
+  margin: 0px;
+}
+
+footer {
+  background-color: #eee;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+footer p {
+  color: #ccc;
+}
