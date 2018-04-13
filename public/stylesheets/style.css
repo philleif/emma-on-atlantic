@@ -48,7 +48,7 @@ section.header {
   background: #36709d;
 }
 
-section.product, section.email {
+section.product, section.email, section.download {
   padding-top: 4em;
   padding-bottom: 4em;
 }

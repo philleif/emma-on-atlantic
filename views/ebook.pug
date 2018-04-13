@@ -15,7 +15,6 @@ block content
           center
             img.img-responsive(src="/images/cover_2.jpeg")
         .colums.col-6.col-mx-auto
-
           // Begin MailChimp Signup Form
           link(href='//cdn-images.mailchimp.com/embedcode/classic-10_7.css', rel='stylesheet', type='text/css')
           style(type='text/css').
@@ -25,14 +24,9 @@ block content
           #mc_embed_signup
             form#mc-embedded-subscribe-form.validate(action='https://holdings.us12.list-manage.com/subscribe/post?u=e2a44e7a46210a3feda10f00a&id=b83ada8f2e', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
               #mc_embed_signup_scroll
-                h2 Enter your email to download the e-book:
-                .indicates-required
-                  span.asterisk *
-                  |  indicates required
+                h2 Download E-Book
                 .mc-field-group
-                  label(for='mce-EMAIL')
-                    | Email Address
-                    span.asterisk *
+                  label(for='mce-EMAIL') Email Address
                   input#mce-EMAIL.required.email(type='email', value='', name='EMAIL')
                 #mce-responses.clear
                   #mce-error-response.response(style='display:none')
@@ -41,8 +35,9 @@ block content
                 div(style='position: absolute; left: -5000px;', aria-hidden='true')
                   input(type='text', name='b_e2a44e7a46210a3feda10f00a_b83ada8f2e', tabindex='-1', value='')
                 .clear
-                  input#mc-embedded-subscribe.button(type='submit', value='Download', name='subscribe')
+                  input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
           // End mc_embed_signup
+
 
   footer
     .container.grid-md
