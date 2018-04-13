@@ -32,7 +32,8 @@ a {
   color: #36709d;
 }
 
-a.btn, a.btn:hover {
+a.btn, a.btn:hover, input#mc-embedded-subscribe.button, input#mc-embedded-subscribe.button:hover {
+  background: #fff;
   border: 1px solid #36709d;
   color: #36709d;
 }
@@ -47,7 +48,7 @@ section.header {
   background: #36709d;
 }
 
-section.product {
+section.product, section.email {
   padding-top: 4em;
   padding-bottom: 4em;
 }
