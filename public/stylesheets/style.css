@@ -32,6 +32,11 @@ a {
   color: #36709d;
 }
 
+a.btn, a.btn:hover {
+  border: 1px solid #36709d;
+  color: #36709d;
+}
+
 img.buy {
   width: 200px;
 }
